@@ -17,7 +17,7 @@ const forecastContainer = document.getElementById("forecast-container");
 const themeSwitch = document.getElementById("theme-switch");
 
 // Default location
-const defaultLocation = "London";
+const defaultLocation = "Postojna";
 
 // Initialize app
 document.addEventListener("DOMContentLoaded", () => {
