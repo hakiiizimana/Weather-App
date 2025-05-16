@@ -1,35 +1,29 @@
-# Weather-App
+# Weather App – Forecast at a Glance
 
-Weather Forcoast
+A sleek and responsive weather application that provides real-time weather updates and a 5-day forecast, powered by the OpenWeatherMap API.
 
-A clean, mobile-friendly weather app that shows current conditions and 5-day forecasts.
+## 🌟 Features
 
-# Features
+- 🔍 Search any city worldwide
+- 🌤️ Current temperature and weather conditions
+- 📅 5-day weather forecast
+- 🌗 Light & dark mode toggle
+- 📱 Fully responsive design (mobile-first)
 
-Real-time weather data from OpenWeatherMap
+## 🛠️ Setup Instructions
 
-Current temperature & conditions
+1. [Get your free API key](https://openweathermap.org/api) from OpenWeatherMap.
+2. Add your API key in `script.js`.
+3. Open `index.html` in your browser to launch the app.
 
-5-day forecast
+## 🚀 Usage
 
-Light/dark mode
+- Enter a city name in the search bar.
+- Toggle between light and dark themes.
+- Explore real-time weather details and upcoming forecasts.
 
-Responsive mobile design
+## 📁 Project Files
 
-# Setup
-
-Get a free API key from OpenWeatherMap
-
-Add your key to script.js
-
-Open index.html in browser
-
-# Usage
-
-Search any city
-
-Toggle dark/light mode
-
-View detailed weather info
-
-Files: index.html, styles.css, script.js
+- `index.html` – Main HTML structure  
+- `styles.css` – Custom styling  
+- `script.js` – JavaScript logic and API calls
