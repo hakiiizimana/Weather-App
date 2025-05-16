@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="global.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Weather Forecast</h1>
+        <div class="theme-toggle">
+          <i class="fas fa-sun"></i>
+          <label class="switch">
+            <input type="checkbox" id="theme-switch" />
+            <span class="slider round"></span>
+          </label>
+          <i class="fas fa-moon"></i>
+        </div>
+      </header>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="location-input"
+          placeholder="Search for a city..."
+        />
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+      </div>
+
+      <main>
+        <div class="current-weather">
+          <div class="location">
+            <h2 id="city-name">--</h2>
+            <p id="current-date">--</p>
+          </div>
+          <div class="weather-info">
+            <div class="temperature">
+              <span id="current-temp">--</span>
+              <span class="unit">°C</span>
+            </div>
+            <div class="condition">
+              <div id="weather-icon"><i class="fas fa-question"></i></div>
+              <p id="weather-desc">--</p>
+            </div>
+          </div>
+          <div class="weather-details">
+            <div class="detail">
+              <i class="fas fa-wind"></i>
+              <span id="wind-speed">-- km/h</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-tint"></i>
+              <span id="humidity">--%</span>
+            </div>
+            <div class="detail">
+              <i class="fas fa-cloud-rain"></i>
+              <span id="precipitation">--%</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="forecast">
+          <h3>5-Day Forecast</h3>
+          <div class="forecast-cards" id="forecast-container">
+            <!-- Forecast cards will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
